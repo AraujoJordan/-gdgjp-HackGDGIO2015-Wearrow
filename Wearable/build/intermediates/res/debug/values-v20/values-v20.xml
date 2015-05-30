@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/res/values-v20/values.xml -->
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-v20/values.xml -->
     <eat-comment/>
     <style name="CardText" parent="TextView.Small.Light">
         <item name="android:lineSpacingMultiplier">0.92</item>
@@ -65,7 +65,7 @@
         <item name="android:fontFamily">sans-serif-condensed-light</item>
         <item name="android:textAppearance">@style/TextAppearance.Wearable.Small</item>
     </style>
-    <style name="Theme.Wearable" parent="@android:Theme.DeviceDefault.Light.NoActionBar"/>
+    <style name="Theme.Wearable" parent="@android:Theme.DeviceDefault"/>
     <style name="Theme.Wearable.Modal">
         <item name="android:windowSwipeToDismiss">false</item>
     </style>

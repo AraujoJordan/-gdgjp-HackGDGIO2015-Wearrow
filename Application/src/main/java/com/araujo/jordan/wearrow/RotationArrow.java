@@ -95,6 +95,9 @@ public class RotationArrow {
                 Math.cos(deg2rad(p1.latitude)) * Math.cos(deg2rad(p2.latitude)) *
                         Math.sin(dLon / 2) * Math.sin(dLon / 2);
         final double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+        Log.e("ARAUJOJORDA", "Distance: " +R*c);
+
         return getMlOrKm(R * c);
     }
 
@@ -106,12 +109,12 @@ public class RotationArrow {
         if (d < 1) {
             int distance = (int) (d * 1000);
             int CLOSE_DISTANCE = 5;
-            if (distance < CLOSE_DISTANCE) {
-                if (arrowImg != null) {
-                    arrowImg.setVisibility(View.GONE);
-                }
-                return toClose;
-            }
+//            if (distance < CLOSE_DISTANCE) {
+//                if (arrowImg != null) {
+//                    arrowImg.setVisibility(View.GONE);
+//                }
+//                return toClose;
+//            }
             return distance + " " + met;
         } else {
             return ((int) (d)) + " " + kil; //in km
@@ -140,8 +143,10 @@ public class RotationArrow {
         double deltaX = p2.longitude - p1.longitude;
         double result = (Math.atan2(deltaY, deltaX)) * (180 / Math.PI);
         if (result < 0) {
+            Log.e("ARAUJOJORDA", "ANGLE: "+(180 + (180 + result)));
             return (float) (180 + (180 + result));
         }
+        Log.e("ARAUJOJORDA", "ANGLE: "+result);
         return (float) result;
     }
 

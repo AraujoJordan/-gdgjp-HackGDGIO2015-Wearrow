@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-in/common_strings.xml -->
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-in/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Aplikasi memerlukan pembaruan ke aplikasi Android Wear."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"Aplikasi ini tidak akan berjalan sampai Anda memperbarui layanan Android Wear."</string>
@@ -33,4 +33,7 @@
     <string msgid="9071884888741449141" name="common_signin_button_text">"Masuk"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Masuk dengan Google"</string>
     <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Aplikasi ini memerlukan satu atau beberapa layanan Google Play yang saat ini tidak tersedia. Hubungi pengembang untuk mendapatkan bantuan."</string>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-in/values.xml -->
+    <eat-comment/>
+    <string msgid="8455537630633057684" name="dismiss_overlay_button_label">"Keluar"</string>
 </resources>

@@ -75,7 +75,7 @@ public class MainActivity extends Activity implements DataApi.DataListener,
         LolipopFeatures.actionAndStatusBar(this);
         try {
             ActionBar bar = getActionBar();
-            bar.setElevation(0);
+            LolipopFeatures.noBar(bar);
             bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff5722")));
         } catch (NullPointerException error) {
             Log.e("ARAUJOJORDAN","ACTIONBAR COLOR ERROR");
@@ -183,6 +183,9 @@ public class MainActivity extends Activity implements DataApi.DataListener,
     }
 
     private void sendStartActivityMessage(String node) {
+
+        Log.e(TAG, "OPEN ACT ON WEAR");
+
 
         double[] location = new double[2];
         location[0] = mLatLng.latitude;

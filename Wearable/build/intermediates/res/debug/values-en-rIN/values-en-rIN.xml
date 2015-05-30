@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-en-rIN/common_strings.xml -->
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-en-rIN/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"An application requires an update to the Android Wear app."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"This app won\'t run unless you update the Android Wear app."</string>
@@ -33,4 +33,7 @@
     <string msgid="9071884888741449141" name="common_signin_button_text">"Sign in"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Sign in with Google"</string>
     <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"This app requires one or more Google Play services that are not currently available. Please contact the developer for assistance."</string>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-en-rIN/values.xml -->
+    <eat-comment/>
+    <string msgid="8455537630633057684" name="dismiss_overlay_button_label">"Quit"</string>
 </resources>

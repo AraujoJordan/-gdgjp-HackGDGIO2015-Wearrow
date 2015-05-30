@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffff5722"
     android:gravity="center_vertical|center_horizontal"
-    android:orientation="vertical"
     tools:context=".Wearrow"
     tools:deviceIds="wear_round">
 
     <ImageView
         android:id="@+id/arrowImg"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="170dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/arrow1" />
+        android:src="@drawable/arrow1"
+        android:layout_centerInParent="true" />
 
     <TextView
         android:id="@+id/textInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/loading" />
-</LinearLayout>
-<!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/src/main/res/layout/main_activity.xml -->
+        android:text="@string/loading"
+        android:layout_below="@+id/arrowImg"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+<!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/src/main/res/layout/main_activity.xml -->

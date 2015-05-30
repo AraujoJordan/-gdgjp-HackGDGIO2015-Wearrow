@@ -2,116 +2,60 @@
 <items version="2" >
 
     <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-f4d6ce4a3a80b2ea12b4bb09deb8a5cc95c9f6dc.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fcf32027f88ac0be1b54b16167a30bde06ab6cd1">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-21ad8e599a41e9d4977f1acd483e662ccb1ca594.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-46f134386ca57e994fdf7cae3fae2b9c088116ae.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
+        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-bd13fb4d496231a587a22d364663d975a69d0195.jar" />
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/classes-e430a843b61c06e28d5d45c87bdd90429dbe3127.jar" />
     </item>
     <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="50fd8c7c5556b3516f569f71ed189d61441d59cf">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/internal_impl-22.1.1-d71cb44f7b1b5e89a4c63a643101a69107f9441c.jar" />
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-7714da04f7b9328e5ed336c00bdfbfb1fd1b9085.jar" />
     </item>
     <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-22e7af3688781f7387da07053d94f23245bc0acc.jar" />
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/classes-d6b0ec5a0be7321245515b06afce719f4cbb14c1.jar" />
     </item>
     <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/classes.jar"
+        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="fcf32027f88ac0be1b54b16167a30bde06ab6cd1">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-d4656ac18e51d4da589610a7a92a75b06082d7e0.jar" />
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/classes-df41f58d8feb9342817637a775bd8bddcc2b0b75.jar" />
     </item>
     <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-5eb981cefb799f0429f3689bef5511ae60605baa.jar" />
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/classes-c4da227ecf4a7cbc69ecd23c7d5715aeec816937.jar" />
     </item>
     <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="50fd8c7c5556b3516f569f71ed189d61441d59cf">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/internal_impl-22.1.1-2092eadf899bd39a89690b165830f51da20319d6.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-9a0fc5c84cff2e3ac56dc50ff012fc33cee75dc2.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
+        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-4a26d38d0a17ceaaed0f47c9db34476a12e7e584.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-79822cdebfe42c973d439b82b84d1a6e29397063.jar" />
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/classes-83e29b22ae9d7895fe5b172df77374797721642b.jar" />
     </item>
     <item
         jar="/home/araujojordan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/support-annotations-22.1.1-b67cdddf1020ffb861d130bbe905ab1253730015.jar" />
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-b67cdddf1020ffb861d130bbe905ab1253730015.jar" />
     </item>
     <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/internal_impl-22.1.1-8ecd6ad6f6dc0a4792ba53639ed464692ca050d0.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="22886d910315028a2b34b1ba068c265534ade87a">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-689d77698cdda6057646d43ac35899720986cb8d.jar" />
-    </item>
-    <item
-        jar="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/internal_impl-22.1.1-0a141e8f4855d551f598222a75df4c66b479bbf1.jar" />
+        <dex dex="/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Application/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-22908f09058328d9bc00cd08768c74ec62995a8a.jar" />
     </item>
 
 </items>

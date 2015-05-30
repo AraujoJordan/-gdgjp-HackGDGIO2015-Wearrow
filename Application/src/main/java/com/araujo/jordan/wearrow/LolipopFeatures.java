@@ -1,6 +1,7 @@
 package com.araujo.jordan.wearrow;
 
 import android.annotation.TargetApi;
+import android.app.ActionBar;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
@@ -22,6 +23,12 @@ public class LolipopFeatures {
             window.setNavigationBarColor(Color.rgb(255, 87, 34));
         }
     }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    public static void noBar(ActionBar bar) {
+        bar.setElevation(0);
+    }
+
 
 
 }

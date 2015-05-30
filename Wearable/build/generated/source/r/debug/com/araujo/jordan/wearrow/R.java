@@ -8,8 +8,18 @@
 package com.araujo.jordan.wearrow;
 
 public final class R {
+    public static final class anim {
+        public static final int generic_confirmation_generic_confirmation_animation=0x7f040000;
+        public static final int generic_confirmation_icon_animation=0x7f040001;
+        public static final int open_on_phone_arrow_animation=0x7f040002;
+        public static final int open_on_phone_path_1_animation=0x7f040003;
+        public static final int open_on_phone_path_2_animation=0x7f040004;
+    }
+    public static final class animator {
+        public static final int circular_image_button_anim=0x7f050000;
+    }
     public static final class array {
-        public static final int android_wear_capabilities=0x7f060000;
+        public static final int android_wear_capabilities=0x7f090000;
     }
     public static final class attr {
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -19,7 +29,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circleCrop=0x7f010018;
+        public static final int circleCrop=0x7f01001d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -28,7 +38,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circle_border_color=0x7f010005;
+        public static final int circle_border_color=0x7f010007;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -38,7 +48,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circle_border_width=0x7f010004;
+        public static final int circle_border_width=0x7f010006;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -47,7 +57,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circle_color=0x7f010001;
+        public static final int circle_color=0x7f010003;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -57,7 +67,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circle_padding=0x7f010006;
+        public static final int circle_padding=0x7f010008;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -67,7 +77,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circle_radius=0x7f010002;
+        public static final int circle_radius=0x7f010004;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -77,7 +87,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circle_radius_pressed=0x7f010003;
+        public static final int circle_radius_pressed=0x7f010005;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -93,7 +103,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>0x11</td><td></td></tr>
 </table>
          */
-        public static final int circular_layout_gravity=0x7f01001b;
+        public static final int circular_layout_gravity=0x7f010028;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -103,7 +113,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circular_text_size=0x7f01001c;
+        public static final int circular_text_size=0x7f010029;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -112,7 +122,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotColor=0x7f01000c;
+        public static final int dotColor=0x7f010011;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -121,7 +131,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotColorSelected=0x7f01000d;
+        public static final int dotColorSelected=0x7f010012;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -129,7 +139,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotFadeInDuration=0x7f010011;
+        public static final int dotFadeInDuration=0x7f010016;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -137,7 +147,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotFadeOutDelay=0x7f01000f;
+        public static final int dotFadeOutDelay=0x7f010014;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -145,7 +155,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotFadeOutDuration=0x7f010010;
+        public static final int dotFadeOutDuration=0x7f010015;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -153,7 +163,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotFadeWhenIdle=0x7f01000e;
+        public static final int dotFadeWhenIdle=0x7f010013;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -163,7 +173,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotRadius=0x7f01000a;
+        public static final int dotRadius=0x7f01000f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -173,7 +183,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotRadiusSelected=0x7f01000b;
+        public static final int dotRadiusSelected=0x7f010010;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -182,7 +192,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotShadowColor=0x7f010012;
+        public static final int dotShadowColor=0x7f010017;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -192,7 +202,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotShadowDx=0x7f010014;
+        public static final int dotShadowDx=0x7f010019;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -202,7 +212,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotShadowDy=0x7f010015;
+        public static final int dotShadowDy=0x7f01001a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -212,7 +222,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotShadowRadius=0x7f010013;
+        public static final int dotShadowRadius=0x7f010018;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -222,7 +232,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotSpacing=0x7f010009;
+        public static final int dotSpacing=0x7f01000e;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -230,7 +240,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int imageAspectRatio=0x7f010017;
+        public static final int imageAspectRatio=0x7f01001c;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -242,7 +252,18 @@ containing a value of this type.
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int imageAspectRatioAdjust=0x7f010016;
+        public static final int imageAspectRatioAdjust=0x7f01001b;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fit</code></td><td>0</td><td></td></tr>
+<tr><td><code>center</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int imageScaleMode=0x7f01000a;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -256,15 +277,30 @@ containing a value of this type.
 <tr><td><code>all</code></td><td>0x0F</td><td></td></tr>
 </table>
          */
-        public static final int layout_box=0x7f010000;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static final int layout_box=0x7f010002;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
          */
-        public static final int rectLayout=0x7f010019;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int roundLayout=0x7f01001a;
+        public static final int layout_gravityRound=0x7f010020;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -274,7 +310,121 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int shadow_width=0x7f010007;
+        public static final int layout_heightRound=0x7f010022;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_marginBottomRound=0x7f010027;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_marginLeftRound=0x7f010024;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_marginRightRound=0x7f010026;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_marginRound=0x7f010023;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_marginTopRound=0x7f010025;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_widthRound=0x7f010021;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxTextSize=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int minTextSize=0x7f010000;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pressedTranslationZ=0x7f01000c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int rectLayout=0x7f01001e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int rippleColor=0x7f01000b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int roundLayout=0x7f01001f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadow_width=0x7f010009;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -282,46 +432,69 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int update_interval=0x7f010008;
+        public static final int update_interval=0x7f01000d;
     }
     public static final class color {
-        public static final int black=0x7f070000;
-        public static final int blue=0x7f070001;
-        public static final int card_default_background=0x7f070002;
-        public static final int common_action_bar_splitter=0x7f070003;
-        public static final int common_signin_btn_dark_text_default=0x7f070004;
-        public static final int common_signin_btn_dark_text_disabled=0x7f070005;
-        public static final int common_signin_btn_dark_text_focused=0x7f070006;
-        public static final int common_signin_btn_dark_text_pressed=0x7f070007;
-        public static final int common_signin_btn_default_background=0x7f070008;
-        public static final int common_signin_btn_light_text_default=0x7f070009;
-        public static final int common_signin_btn_light_text_disabled=0x7f07000a;
-        public static final int common_signin_btn_light_text_focused=0x7f07000b;
-        public static final int common_signin_btn_light_text_pressed=0x7f07000c;
-        public static final int common_signin_btn_text_dark=0x7f07001d;
-        public static final int common_signin_btn_text_light=0x7f07001e;
-        public static final int dark_blue=0x7f07000d;
-        public static final int dark_grey=0x7f07000e;
-        public static final int disabled_text_light=0x7f07000f;
-        public static final int dismiss_close=0x7f070010;
-        public static final int dismiss_close_pressed=0x7f070011;
-        public static final int dismiss_overlay_bg=0x7f070012;
-        public static final int green=0x7f070013;
-        public static final int grey=0x7f070014;
-        public static final int light_grey=0x7f070015;
-        public static final int orange=0x7f070016;
-        public static final int primary_text_dark=0x7f070017;
-        public static final int primary_text_light=0x7f070018;
-        public static final int red=0x7f070019;
-        public static final int secondary_text_light=0x7f07001a;
-        public static final int semitransparent_grey=0x7f07001b;
-        public static final int white=0x7f07001c;
+        public static final int action_button_background=0x7f0a0000;
+        public static final int black=0x7f0a0001;
+        public static final int black_54p=0x7f0a0002;
+        public static final int black_86p=0x7f0a0003;
+        public static final int blue=0x7f0a0004;
+        public static final int card_default_background=0x7f0a0005;
+        public static final int circular_button=0x7f0a0026;
+        public static final int circular_button_disabled=0x7f0a0006;
+        public static final int circular_button_normal=0x7f0a0007;
+        public static final int circular_button_pressed=0x7f0a0008;
+        public static final int common_action_bar_splitter=0x7f0a0009;
+        public static final int common_signin_btn_dark_text_default=0x7f0a000a;
+        public static final int common_signin_btn_dark_text_disabled=0x7f0a000b;
+        public static final int common_signin_btn_dark_text_focused=0x7f0a000c;
+        public static final int common_signin_btn_dark_text_pressed=0x7f0a000d;
+        public static final int common_signin_btn_default_background=0x7f0a000e;
+        public static final int common_signin_btn_light_text_default=0x7f0a000f;
+        public static final int common_signin_btn_light_text_disabled=0x7f0a0010;
+        public static final int common_signin_btn_light_text_focused=0x7f0a0011;
+        public static final int common_signin_btn_light_text_pressed=0x7f0a0012;
+        public static final int common_signin_btn_text_dark=0x7f0a0027;
+        public static final int common_signin_btn_text_light=0x7f0a0028;
+        public static final int dark_blue=0x7f0a0013;
+        public static final int dark_grey=0x7f0a0014;
+        public static final int dark_red=0x7f0a0015;
+        public static final int dialog_background=0x7f0a0016;
+        public static final int dialog_shade_background=0x7f0a0017;
+        public static final int disabled_text_light=0x7f0a0018;
+        public static final int dismiss_close=0x7f0a0019;
+        public static final int dismiss_close_pressed=0x7f0a001a;
+        public static final int dismiss_overlay_bg=0x7f0a001b;
+        public static final int green=0x7f0a001c;
+        public static final int grey=0x7f0a001d;
+        public static final int light_grey=0x7f0a001e;
+        public static final int orange=0x7f0a001f;
+        public static final int primary_text_dark=0x7f0a0020;
+        public static final int primary_text_light=0x7f0a0021;
+        public static final int red=0x7f0a0022;
+        public static final int secondary_text_light=0x7f0a0023;
+        public static final int semitransparent_grey=0x7f0a0024;
+        public static final int white=0x7f0a0025;
     }
     public static final class dimen {
-        public static final int card_content_padding_rect_top=0x7f080000;
-        public static final int close_button_diameter=0x7f080001;
-        public static final int dismiss_padding=0x7f080002;
-        public static final int dots_spacing=0x7f080003;
+        public static final int card_content_padding_rect_top=0x7f0b0000;
+        public static final int circular_button_elevation=0x7f0b0001;
+        public static final int circular_button_elevation_pressed=0x7f0b0002;
+        public static final int close_button_diameter=0x7f0b0003;
+        public static final int diag_button_bottom_padding=0x7f0b0004;
+        public static final int diag_button_bottom_padding_round=0x7f0b0005;
+        public static final int diag_button_side_padding_right_round=0x7f0b0006;
+        public static final int diag_content_bottom_padding=0x7f0b0007;
+        public static final int diag_content_side_padding=0x7f0b0008;
+        public static final int diag_content_side_padding_round=0x7f0b0009;
+        public static final int diag_content_top_padding=0x7f0b000a;
+        public static final int diag_content_top_padding_round=0x7f0b000b;
+        public static final int diag_floating_height=0x7f0b000c;
+        public static final int diag_shade_height_rect=0x7f0b000d;
+        public static final int diag_shade_height_round=0x7f0b000e;
+        public static final int dismiss_padding=0x7f0b000f;
+        public static final int dots_spacing=0x7f0b0010;
     }
     public static final class drawable {
         public static final int arrow1=0x7f020000;
@@ -355,189 +528,470 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f02001c;
         public static final int common_signin_btn_text_pressed_dark=0x7f02001d;
         public static final int common_signin_btn_text_pressed_light=0x7f02001e;
-        public static final int confirmation_animation=0x7f02001f;
-        public static final int generic_confirmation_00163=0x7f020020;
-        public static final int generic_confirmation_00164=0x7f020021;
-        public static final int generic_confirmation_00165=0x7f020022;
-        public static final int generic_confirmation_00166=0x7f020023;
-        public static final int generic_confirmation_00167=0x7f020024;
-        public static final int generic_confirmation_00168=0x7f020025;
-        public static final int generic_confirmation_00169=0x7f020026;
-        public static final int generic_confirmation_00170=0x7f020027;
-        public static final int generic_confirmation_00171=0x7f020028;
-        public static final int generic_confirmation_00172=0x7f020029;
-        public static final int generic_confirmation_00173=0x7f02002a;
-        public static final int generic_confirmation_00174=0x7f02002b;
-        public static final int generic_confirmation_00175=0x7f02002c;
-        public static final int generic_confirmation_00185=0x7f02002d;
-        public static final int generic_confirmation_00186=0x7f02002e;
-        public static final int generic_confirmation_00187=0x7f02002f;
-        public static final int generic_confirmation_00188=0x7f020030;
-        public static final int generic_confirmation_00189=0x7f020031;
-        public static final int generic_confirmation_00190=0x7f020032;
-        public static final int generic_confirmation_00191=0x7f020033;
-        public static final int generic_confirmation_00192=0x7f020034;
-        public static final int generic_confirmation_00193=0x7f020035;
-        public static final int go_to_phone_00156=0x7f020036;
-        public static final int go_to_phone_00157=0x7f020037;
-        public static final int go_to_phone_00158=0x7f020038;
-        public static final int go_to_phone_00159=0x7f020039;
-        public static final int go_to_phone_00160=0x7f02003a;
-        public static final int go_to_phone_00161=0x7f02003b;
-        public static final int go_to_phone_00162=0x7f02003c;
-        public static final int go_to_phone_00163=0x7f02003d;
-        public static final int go_to_phone_00164=0x7f02003e;
-        public static final int go_to_phone_00165=0x7f02003f;
-        public static final int go_to_phone_00166=0x7f020040;
-        public static final int go_to_phone_00167=0x7f020041;
-        public static final int go_to_phone_00168=0x7f020042;
-        public static final int go_to_phone_00169=0x7f020043;
-        public static final int go_to_phone_00170=0x7f020044;
-        public static final int go_to_phone_00171=0x7f020045;
-        public static final int go_to_phone_00172=0x7f020046;
-        public static final int go_to_phone_00173=0x7f020047;
-        public static final int go_to_phone_00174=0x7f020048;
-        public static final int go_to_phone_00175=0x7f020049;
-        public static final int go_to_phone_00176=0x7f02004a;
-        public static final int go_to_phone_00177=0x7f02004b;
-        public static final int go_to_phone_00178=0x7f02004c;
-        public static final int go_to_phone_00185=0x7f02004d;
-        public static final int go_to_phone_00186=0x7f02004e;
-        public static final int go_to_phone_00187=0x7f02004f;
-        public static final int go_to_phone_00188=0x7f020050;
-        public static final int go_to_phone_00189=0x7f020051;
-        public static final int go_to_phone_00190=0x7f020052;
-        public static final int go_to_phone_00191=0x7f020053;
-        public static final int go_to_phone_00192=0x7f020054;
-        public static final int go_to_phone_00193=0x7f020055;
-        public static final int go_to_phone_00194=0x7f020056;
-        public static final int go_to_phone_00195=0x7f020057;
-        public static final int go_to_phone_00196=0x7f020058;
-        public static final int go_to_phone_00197=0x7f020059;
-        public static final int go_to_phone_00198=0x7f02005a;
-        public static final int go_to_phone_00199=0x7f02005b;
-        public static final int go_to_phone_00200=0x7f02005c;
-        public static final int go_to_phone_00210=0x7f02005d;
-        public static final int go_to_phone_00211=0x7f02005e;
-        public static final int go_to_phone_00212=0x7f02005f;
-        public static final int go_to_phone_00213=0x7f020060;
-        public static final int go_to_phone_00214=0x7f020061;
-        public static final int go_to_phone_00215=0x7f020062;
-        public static final int go_to_phone_00216=0x7f020063;
-        public static final int go_to_phone_00217=0x7f020064;
-        public static final int go_to_phone_00218=0x7f020065;
-        public static final int go_to_phone_00219=0x7f020066;
-        public static final int go_to_phone_00220=0x7f020067;
-        public static final int go_to_phone_00221=0x7f020068;
-        public static final int go_to_phone_00222=0x7f020069;
-        public static final int go_to_phone_00223=0x7f02006a;
-        public static final int go_to_phone_00224=0x7f02006b;
-        public static final int go_to_phone_animation=0x7f02006c;
-        public static final int ic_full_cancel=0x7f02006d;
-        public static final int ic_full_sad=0x7f02006e;
-        public static final int ic_launcher=0x7f02006f;
-        public static final int ic_plusone_medium_off_client=0x7f020070;
-        public static final int ic_plusone_small_off_client=0x7f020071;
-        public static final int ic_plusone_standard_off_client=0x7f020072;
-        public static final int ic_plusone_tall_off_client=0x7f020073;
-        public static final int photo_placeholder=0x7f020074;
-        public static final int rounded_background=0x7f020075;
+        public static final int generic_confirmation=0x7f02001f;
+        public static final int generic_confirmation_animation=0x7f020020;
+        public static final int ic_full_cancel=0x7f020021;
+        public static final int ic_full_sad=0x7f020022;
+        public static final int ic_launcher=0x7f020023;
+        public static final int ic_plusone_medium_off_client=0x7f020024;
+        public static final int ic_plusone_small_off_client=0x7f020025;
+        public static final int ic_plusone_standard_off_client=0x7f020026;
+        public static final int ic_plusone_tall_off_client=0x7f020027;
+        public static final int open_on_phone=0x7f020028;
+        public static final int open_on_phone_animation=0x7f020029;
+        public static final int photo_placeholder=0x7f02002a;
+        public static final int rounded_background=0x7f02002b;
     }
     public static final class id {
-        public static final int action_error=0x7f0a000b;
-        public static final int action_success=0x7f0a000d;
-        public static final int adjust_height=0x7f0a0005;
-        public static final int adjust_width=0x7f0a0006;
-        public static final int all=0x7f0a0000;
-        public static final int animation=0x7f0a000e;
-        public static final int arrowImg=0x7f0a0012;
-        public static final int bottom=0x7f0a0001;
-        public static final int center=0x7f0a0008;
-        public static final int center_horizontal=0x7f0a0009;
-        public static final int center_vertical=0x7f0a000a;
-        public static final int dismiss_overlay_button=0x7f0a0011;
-        public static final int dismiss_overlay_explain=0x7f0a0010;
-        public static final int error_message=0x7f0a000c;
-        public static final int left=0x7f0a0002;
-        public static final int message=0x7f0a000f;
-        public static final int none=0x7f0a0007;
-        public static final int right=0x7f0a0003;
-        public static final int text=0x7f0a0015;
-        public static final int textInfo=0x7f0a0013;
-        public static final int title=0x7f0a0014;
-        public static final int top=0x7f0a0004;
+        public static final int adjust_height=0x7f0d0007;
+        public static final int adjust_width=0x7f0d0008;
+        public static final int alertTitle=0x7f0d0015;
+        public static final int all=0x7f0d0000;
+        public static final int animatedWrapperContainer=0x7f0d0014;
+        public static final int arrowImg=0x7f0d001a;
+        public static final int bottom=0x7f0d0001;
+        public static final int buttonPanel=0x7f0d0016;
+        public static final int center=0x7f0d0005;
+        public static final int center_horizontal=0x7f0d000a;
+        public static final int center_vertical=0x7f0d000b;
+        public static final int clip_horizontal=0x7f0d000c;
+        public static final int clip_vertical=0x7f0d000d;
+        public static final int dismiss_overlay_button=0x7f0d0018;
+        public static final int dismiss_overlay_explain=0x7f0d0017;
+        public static final int end=0x7f0d000e;
+        public static final int fill=0x7f0d000f;
+        public static final int fill_horizontal=0x7f0d0010;
+        public static final int fill_vertical=0x7f0d0011;
+        public static final int fit=0x7f0d0006;
+        public static final int left=0x7f0d0002;
+        public static final int message=0x7f0d0019;
+        public static final int none=0x7f0d0009;
+        public static final int parentPanel=0x7f0d0013;
+        public static final int right=0x7f0d0003;
+        public static final int start=0x7f0d0012;
+        public static final int text=0x7f0d001d;
+        public static final int textInfo=0x7f0d001b;
+        public static final int title=0x7f0d001c;
+        public static final int top=0x7f0d0004;
     }
     public static final class integer {
-        public static final int google_play_services_version=0x7f090000;
+        public static final int google_play_services_version=0x7f0c0000;
+    }
+    public static final class interpolator {
+        public static final int generic_confirmation_animation_interpolator_0=0x7f060000;
+        public static final int generic_confirmation_animation_interpolator_1=0x7f060001;
+        public static final int generic_confirmation_animation_interpolator_2=0x7f060002;
+        public static final int generic_confirmation_animation_interpolator_3=0x7f060003;
+        public static final int open_on_phone_animation_interpolator_0=0x7f060004;
+        public static final int open_on_phone_animation_interpolator_1=0x7f060005;
     }
     public static final class layout {
-        public static final int confirmation_activity_layout=0x7f030000;
+        public static final int alert_dialog_wearable=0x7f030000;
         public static final int dismiss_overlay=0x7f030001;
-        public static final int main_activity=0x7f030002;
-        public static final int watch_card_content=0x7f030003;
+        public static final int error_layout=0x7f030002;
+        public static final int main_activity=0x7f030003;
+        public static final int watch_card_content=0x7f030004;
     }
     public static final class string {
-        public static final int app_name=0x7f04001f;
-        public static final int common_android_wear_notification_needs_update_text=0x7f040000;
-        public static final int common_android_wear_update_text=0x7f040001;
-        public static final int common_android_wear_update_title=0x7f040002;
-        public static final int common_google_play_services_enable_button=0x7f040003;
-        public static final int common_google_play_services_enable_text=0x7f040004;
-        public static final int common_google_play_services_enable_title=0x7f040005;
-        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f040006;
-        public static final int common_google_play_services_install_button=0x7f040007;
-        public static final int common_google_play_services_install_text_phone=0x7f040008;
-        public static final int common_google_play_services_install_text_tablet=0x7f040009;
-        public static final int common_google_play_services_install_title=0x7f04000a;
-        public static final int common_google_play_services_invalid_account_text=0x7f04000b;
-        public static final int common_google_play_services_invalid_account_title=0x7f04000c;
-        public static final int common_google_play_services_needs_enabling_title=0x7f04000d;
-        public static final int common_google_play_services_network_error_text=0x7f04000e;
-        public static final int common_google_play_services_network_error_title=0x7f04000f;
-        public static final int common_google_play_services_notification_needs_installation_title=0x7f040010;
-        public static final int common_google_play_services_notification_needs_update_title=0x7f040011;
-        public static final int common_google_play_services_notification_ticker=0x7f040012;
-        public static final int common_google_play_services_sign_in_failed_text=0x7f040013;
-        public static final int common_google_play_services_sign_in_failed_title=0x7f040014;
-        public static final int common_google_play_services_unknown_issue=0x7f040015;
-        public static final int common_google_play_services_unsupported_text=0x7f040016;
-        public static final int common_google_play_services_unsupported_title=0x7f040017;
-        public static final int common_google_play_services_update_button=0x7f040018;
-        public static final int common_google_play_services_update_text=0x7f040019;
-        public static final int common_google_play_services_update_title=0x7f04001a;
-        public static final int common_open_on_phone=0x7f04001b;
-        public static final int common_signin_button_text=0x7f04001c;
-        public static final int common_signin_button_text_long=0x7f04001d;
-        public static final int commono_google_play_services_api_unavailable_text=0x7f04001e;
-        public static final int distanceToClose=0x7f040020;
-        public static final int ft=0x7f040021;
-        public static final int hello_round=0x7f040022;
-        public static final int hello_square=0x7f040023;
-        public static final int kilometer=0x7f040024;
-        public static final int loading=0x7f040025;
-        public static final int meter=0x7f040026;
-        public static final int mi=0x7f040027;
-        public static final int noGEOFound=0x7f040028;
-        public static final int noGpsFound=0x7f040029;
+        public static final int app_name=0x7f070020;
+        public static final int common_android_wear_notification_needs_update_text=0x7f070000;
+        public static final int common_android_wear_update_text=0x7f070001;
+        public static final int common_android_wear_update_title=0x7f070002;
+        public static final int common_google_play_services_enable_button=0x7f070003;
+        public static final int common_google_play_services_enable_text=0x7f070004;
+        public static final int common_google_play_services_enable_title=0x7f070005;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f070006;
+        public static final int common_google_play_services_install_button=0x7f070007;
+        public static final int common_google_play_services_install_text_phone=0x7f070008;
+        public static final int common_google_play_services_install_text_tablet=0x7f070009;
+        public static final int common_google_play_services_install_title=0x7f07000a;
+        public static final int common_google_play_services_invalid_account_text=0x7f07000b;
+        public static final int common_google_play_services_invalid_account_title=0x7f07000c;
+        public static final int common_google_play_services_needs_enabling_title=0x7f07000d;
+        public static final int common_google_play_services_network_error_text=0x7f07000e;
+        public static final int common_google_play_services_network_error_title=0x7f07000f;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f070010;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f070011;
+        public static final int common_google_play_services_notification_ticker=0x7f070012;
+        public static final int common_google_play_services_sign_in_failed_text=0x7f070013;
+        public static final int common_google_play_services_sign_in_failed_title=0x7f070014;
+        public static final int common_google_play_services_unknown_issue=0x7f070015;
+        public static final int common_google_play_services_unsupported_text=0x7f070016;
+        public static final int common_google_play_services_unsupported_title=0x7f070017;
+        public static final int common_google_play_services_update_button=0x7f070018;
+        public static final int common_google_play_services_update_text=0x7f070019;
+        public static final int common_google_play_services_update_title=0x7f07001a;
+        public static final int common_open_on_phone=0x7f07001b;
+        public static final int common_signin_button_text=0x7f07001c;
+        public static final int common_signin_button_text_long=0x7f07001d;
+        public static final int commono_google_play_services_api_unavailable_text=0x7f07001e;
+        public static final int dismiss_overlay_button_label=0x7f07001f;
+        public static final int distanceToClose=0x7f070021;
+        public static final int ft=0x7f070022;
+        public static final int hello_round=0x7f070023;
+        public static final int hello_square=0x7f070024;
+        public static final int kilometer=0x7f070025;
+        public static final int loading=0x7f070026;
+        public static final int meter=0x7f070027;
+        public static final int mi=0x7f070028;
+        public static final int noGEOFound=0x7f070029;
+        public static final int noGpsFound=0x7f07002a;
     }
     public static final class style {
-        public static final int CardText=0x7f050000;
-        public static final int CardTitle=0x7f050001;
-        public static final int DismissOverlayText=0x7f050002;
-        public static final int DotsPageIndicatorStyle=0x7f050003;
-        public static final int TextAppearance_Wearable_Large=0x7f050004;
-        public static final int TextAppearance_Wearable_Medium=0x7f050005;
-        public static final int TextAppearance_Wearable_Small=0x7f050006;
-        public static final int TextView_Large=0x7f050007;
-        public static final int TextView_Large_Light=0x7f050008;
-        public static final int TextView_Medium=0x7f050009;
-        public static final int TextView_Medium_Light=0x7f05000a;
-        public static final int TextView_Small=0x7f05000b;
-        public static final int TextView_Small_Light=0x7f05000c;
-        public static final int Theme_Wearable=0x7f05000d;
-        public static final int Theme_Wearable_Modal=0x7f05000e;
+        public static final int CardText=0x7f080000;
+        public static final int CardTitle=0x7f080001;
+        public static final int DismissOverlayText=0x7f080002;
+        public static final int DotsPageIndicatorStyle=0x7f080003;
+        public static final int TextAppearance_WearDiag=0x7f08000f;
+        public static final int TextAppearance_WearDiag_Button=0x7f080010;
+        public static final int TextAppearance_WearDiag_Message=0x7f080011;
+        public static final int TextAppearance_WearDiag_Title=0x7f080012;
+        public static final int TextAppearance_Wearable_Large=0x7f080004;
+        public static final int TextAppearance_Wearable_Medium=0x7f080005;
+        public static final int TextAppearance_Wearable_Small=0x7f080006;
+        public static final int TextView_Large=0x7f080007;
+        public static final int TextView_Large_Light=0x7f080008;
+        public static final int TextView_Medium=0x7f080009;
+        public static final int TextView_Medium_Light=0x7f08000a;
+        public static final int TextView_Small=0x7f08000b;
+        public static final int TextView_Small_Light=0x7f08000c;
+        public static final int Theme_WearDiag=0x7f080013;
+        public static final int Theme_Wearable=0x7f08000d;
+        public static final int Theme_Wearable_Modal=0x7f08000e;
+        public static final int Widget_ActionPage=0x7f080014;
+        public static final int Widget_WearDiag_Button=0x7f080015;
+        public static final int Widget_WearDiag_TextView=0x7f080016;
+        public static final int Widget_WearDiag_TextView_Message=0x7f080017;
+        public static final int Widget_WearDiag_TextView_Title=0x7f080018;
     }
     public static final class styleable {
+        /** Attributes that can be used with a ActionLabel.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionLabel_android_fontFamily android:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_gravity android:gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_lineSpacingExtra android:lineSpacingExtra}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_lineSpacingMultiplier android:lineSpacingMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_maxLines android:maxLines}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_text android:text}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_textColor android:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_textStyle android:textStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_android_typeface android:typeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_maxTextSize com.araujo.jordan.wearrow:maxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionLabel_minTextSize com.araujo.jordan.wearrow:minTextSize}</code></td><td></td></tr>
+           </table>
+           @see #ActionLabel_android_fontFamily
+           @see #ActionLabel_android_gravity
+           @see #ActionLabel_android_lineSpacingExtra
+           @see #ActionLabel_android_lineSpacingMultiplier
+           @see #ActionLabel_android_maxLines
+           @see #ActionLabel_android_text
+           @see #ActionLabel_android_textColor
+           @see #ActionLabel_android_textStyle
+           @see #ActionLabel_android_typeface
+           @see #ActionLabel_maxTextSize
+           @see #ActionLabel_minTextSize
+         */
+        public static final int[] ActionLabel = {
+            0x01010096, 0x01010097, 0x01010098, 0x010100af,
+            0x0101014f, 0x01010153, 0x01010217, 0x01010218,
+            0x010103ac, 0x7f010000, 0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:fontFamily
+        */
+        public static final int ActionLabel_android_fontFamily = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#gravity}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:gravity
+        */
+        public static final int ActionLabel_android_gravity = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#lineSpacingExtra}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:lineSpacingExtra
+        */
+        public static final int ActionLabel_android_lineSpacingExtra = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#lineSpacingMultiplier}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:lineSpacingMultiplier
+        */
+        public static final int ActionLabel_android_lineSpacingMultiplier = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#maxLines}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:maxLines
+        */
+        public static final int ActionLabel_android_maxLines = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#text}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:text
+        */
+        public static final int ActionLabel_android_text = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColor}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:textColor
+        */
+        public static final int ActionLabel_android_textColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:textStyle
+        */
+        public static final int ActionLabel_android_textStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#typeface}
+          attribute's value can be found in the {@link #ActionLabel} array.
+          @attr name android:typeface
+        */
+        public static final int ActionLabel_android_typeface = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#maxTextSize}
+          attribute's value can be found in the {@link #ActionLabel} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:maxTextSize
+        */
+        public static final int ActionLabel_maxTextSize = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#minTextSize}
+          attribute's value can be found in the {@link #ActionLabel} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:minTextSize
+        */
+        public static final int ActionLabel_minTextSize = 9;
+        /** Attributes that can be used with a ActionPage.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionPage_android_color android:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_elevation android:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_fontFamily android:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_gravity android:gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_lineSpacingExtra android:lineSpacingExtra}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_lineSpacingMultiplier android:lineSpacingMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_maxLines android:maxLines}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_src android:src}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_stateListAnimator android:stateListAnimator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_text android:text}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_textColor android:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_textStyle android:textStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_android_typeface android:typeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_imageScaleMode com.araujo.jordan.wearrow:imageScaleMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_maxTextSize com.araujo.jordan.wearrow:maxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_minTextSize com.araujo.jordan.wearrow:minTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_pressedTranslationZ com.araujo.jordan.wearrow:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionPage_rippleColor com.araujo.jordan.wearrow:rippleColor}</code></td><td></td></tr>
+           </table>
+           @see #ActionPage_android_color
+           @see #ActionPage_android_elevation
+           @see #ActionPage_android_fontFamily
+           @see #ActionPage_android_gravity
+           @see #ActionPage_android_lineSpacingExtra
+           @see #ActionPage_android_lineSpacingMultiplier
+           @see #ActionPage_android_maxLines
+           @see #ActionPage_android_src
+           @see #ActionPage_android_stateListAnimator
+           @see #ActionPage_android_text
+           @see #ActionPage_android_textColor
+           @see #ActionPage_android_textStyle
+           @see #ActionPage_android_typeface
+           @see #ActionPage_imageScaleMode
+           @see #ActionPage_maxTextSize
+           @see #ActionPage_minTextSize
+           @see #ActionPage_pressedTranslationZ
+           @see #ActionPage_rippleColor
+         */
+        public static final int[] ActionPage = {
+            0x01010096, 0x01010097, 0x01010098, 0x010100af,
+            0x01010119, 0x0101014f, 0x01010153, 0x010101a5,
+            0x01010217, 0x01010218, 0x010103ac, 0x01010440,
+            0x01010448, 0x7f010000, 0x7f010001, 0x7f01000a,
+            0x7f01000b, 0x7f01000c
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#color}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:color
+        */
+        public static final int ActionPage_android_color = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#elevation}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:elevation
+        */
+        public static final int ActionPage_android_elevation = 11;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:fontFamily
+        */
+        public static final int ActionPage_android_fontFamily = 10;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#gravity}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:gravity
+        */
+        public static final int ActionPage_android_gravity = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#lineSpacingExtra}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:lineSpacingExtra
+        */
+        public static final int ActionPage_android_lineSpacingExtra = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#lineSpacingMultiplier}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:lineSpacingMultiplier
+        */
+        public static final int ActionPage_android_lineSpacingMultiplier = 9;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#maxLines}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:maxLines
+        */
+        public static final int ActionPage_android_maxLines = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#src}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:src
+        */
+        public static final int ActionPage_android_src = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#stateListAnimator}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:stateListAnimator
+        */
+        public static final int ActionPage_android_stateListAnimator = 12;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#text}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:text
+        */
+        public static final int ActionPage_android_text = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColor}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:textColor
+        */
+        public static final int ActionPage_android_textColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:textStyle
+        */
+        public static final int ActionPage_android_textStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#typeface}
+          attribute's value can be found in the {@link #ActionPage} array.
+          @attr name android:typeface
+        */
+        public static final int ActionPage_android_typeface = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#imageScaleMode}
+          attribute's value can be found in the {@link #ActionPage} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fit</code></td><td>0</td><td></td></tr>
+<tr><td><code>center</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.araujo.jordan.wearrow:imageScaleMode
+        */
+        public static final int ActionPage_imageScaleMode = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#maxTextSize}
+          attribute's value can be found in the {@link #ActionPage} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:maxTextSize
+        */
+        public static final int ActionPage_maxTextSize = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#minTextSize}
+          attribute's value can be found in the {@link #ActionPage} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:minTextSize
+        */
+        public static final int ActionPage_minTextSize = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#pressedTranslationZ}
+          attribute's value can be found in the {@link #ActionPage} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:pressedTranslationZ
+        */
+        public static final int ActionPage_pressedTranslationZ = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#rippleColor}
+          attribute's value can be found in the {@link #ActionPage} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.araujo.jordan.wearrow:rippleColor
+        */
+        public static final int ActionPage_rippleColor = 16;
         /** Attributes that can be used with a BoxInsetLayout_Layout.
            <p>Includes the following attributes:</p>
            <table>
@@ -549,7 +1003,7 @@ containing a value of this type.
            @see #BoxInsetLayout_Layout_layout_box
          */
         public static final int[] BoxInsetLayout_Layout = {
-            0x7f010000
+            0x7f010002
         };
         /**
           <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_box}
@@ -596,8 +1050,8 @@ containing a value of this type.
            @see #CircledImageView_shadow_width
          */
         public static final int[] CircledImageView = {
-            0x01010119, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+            0x01010119, 0x7f010003, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -715,6 +1169,101 @@ containing a value of this type.
           @attr name com.araujo.jordan.wearrow:shadow_width
         */
         public static final int CircledImageView_shadow_width = 7;
+        /** Attributes that can be used with a CircularButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircularButton_android_color android:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_android_elevation android:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_android_src android:src}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_android_stateListAnimator android:stateListAnimator}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_imageScaleMode com.araujo.jordan.wearrow:imageScaleMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_pressedTranslationZ com.araujo.jordan.wearrow:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularButton_rippleColor com.araujo.jordan.wearrow:rippleColor}</code></td><td></td></tr>
+           </table>
+           @see #CircularButton_android_color
+           @see #CircularButton_android_elevation
+           @see #CircularButton_android_src
+           @see #CircularButton_android_stateListAnimator
+           @see #CircularButton_imageScaleMode
+           @see #CircularButton_pressedTranslationZ
+           @see #CircularButton_rippleColor
+         */
+        public static final int[] CircularButton = {
+            0x01010119, 0x010101a5, 0x01010440, 0x01010448,
+            0x7f01000a, 0x7f01000b, 0x7f01000c
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#color}
+          attribute's value can be found in the {@link #CircularButton} array.
+          @attr name android:color
+        */
+        public static final int CircularButton_android_color = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#elevation}
+          attribute's value can be found in the {@link #CircularButton} array.
+          @attr name android:elevation
+        */
+        public static final int CircularButton_android_elevation = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#src}
+          attribute's value can be found in the {@link #CircularButton} array.
+          @attr name android:src
+        */
+        public static final int CircularButton_android_src = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#stateListAnimator}
+          attribute's value can be found in the {@link #CircularButton} array.
+          @attr name android:stateListAnimator
+        */
+        public static final int CircularButton_android_stateListAnimator = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#imageScaleMode}
+          attribute's value can be found in the {@link #CircularButton} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fit</code></td><td>0</td><td></td></tr>
+<tr><td><code>center</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.araujo.jordan.wearrow:imageScaleMode
+        */
+        public static final int CircularButton_imageScaleMode = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#pressedTranslationZ}
+          attribute's value can be found in the {@link #CircularButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:pressedTranslationZ
+        */
+        public static final int CircularButton_pressedTranslationZ = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#rippleColor}
+          attribute's value can be found in the {@link #CircularButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.araujo.jordan.wearrow:rippleColor
+        */
+        public static final int CircularButton_rippleColor = 5;
         /** Attributes that can be used with a DelayedConfirmationView.
            <p>Includes the following attributes:</p>
            <table>
@@ -726,7 +1275,7 @@ containing a value of this type.
            @see #DelayedConfirmationView_update_interval
          */
         public static final int[] DelayedConfirmationView = {
-            0x7f010008
+            0x7f01000d
         };
         /**
           <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#update_interval}
@@ -777,10 +1326,10 @@ containing a value of this type.
            @see #DotsPageIndicator_dotSpacing
          */
         public static final int[] DotsPageIndicator = {
-            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c,
-            0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010,
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
-            0x7f010015
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
+            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
+            0x7f01001a
         };
         /**
           <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#dotColor}
@@ -994,7 +1543,7 @@ containing a value of this type.
            @see #LoadingImageView_imageAspectRatioAdjust
          */
         public static final int[] LoadingImageView = {
-            0x7f010016, 0x7f010017, 0x7f010018
+            0x7f01001b, 0x7f01001c, 0x7f01001d
         };
         /**
           <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#circleCrop}
@@ -1055,7 +1604,7 @@ containing a value of this type.
            @see #WatchViewStub_roundLayout
          */
         public static final int[] WatchViewStub = {
-            0x7f010019, 0x7f01001a
+            0x7f01001e, 0x7f01001f
         };
         /**
           <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#rectLayout}
@@ -1077,6 +1626,208 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.araujo.jordan.wearrow:roundLayout
         */
         public static final int WatchViewStub_roundLayout = 1;
+        /** Attributes that can be used with a WearableFrameLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #WearableFrameLayout_android_foreground android:foreground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_android_foregroundTint android:foregroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_android_measureAllChildren android:measureAllChildren}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_gravityRound com.araujo.jordan.wearrow:layout_gravityRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_heightRound com.araujo.jordan.wearrow:layout_heightRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginBottomRound com.araujo.jordan.wearrow:layout_marginBottomRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginLeftRound com.araujo.jordan.wearrow:layout_marginLeftRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginRightRound com.araujo.jordan.wearrow:layout_marginRightRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginRound com.araujo.jordan.wearrow:layout_marginRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_marginTopRound com.araujo.jordan.wearrow:layout_marginTopRound}</code></td><td></td></tr>
+           <tr><td><code>{@link #WearableFrameLayout_layout_widthRound com.araujo.jordan.wearrow:layout_widthRound}</code></td><td></td></tr>
+           </table>
+           @see #WearableFrameLayout_android_foreground
+           @see #WearableFrameLayout_android_foregroundGravity
+           @see #WearableFrameLayout_android_foregroundTint
+           @see #WearableFrameLayout_android_measureAllChildren
+           @see #WearableFrameLayout_layout_gravityRound
+           @see #WearableFrameLayout_layout_heightRound
+           @see #WearableFrameLayout_layout_marginBottomRound
+           @see #WearableFrameLayout_layout_marginLeftRound
+           @see #WearableFrameLayout_layout_marginRightRound
+           @see #WearableFrameLayout_layout_marginRound
+           @see #WearableFrameLayout_layout_marginTopRound
+           @see #WearableFrameLayout_layout_widthRound
+         */
+        public static final int[] WearableFrameLayout = {
+            0x01010109, 0x0101010a, 0x01010200, 0x0101046d,
+            0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023,
+            0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foreground}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+          @attr name android:foreground
+        */
+        public static final int WearableFrameLayout_android_foreground = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foregroundGravity}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+          @attr name android:foregroundGravity
+        */
+        public static final int WearableFrameLayout_android_foregroundGravity = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foregroundTint}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+          @attr name android:foregroundTint
+        */
+        public static final int WearableFrameLayout_android_foregroundTint = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#measureAllChildren}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+          @attr name android:measureAllChildren
+        */
+        public static final int WearableFrameLayout_android_measureAllChildren = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_gravityRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name com.araujo.jordan.wearrow:layout_gravityRound
+        */
+        public static final int WearableFrameLayout_layout_gravityRound = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_heightRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:layout_heightRound
+        */
+        public static final int WearableFrameLayout_layout_heightRound = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_marginBottomRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:layout_marginBottomRound
+        */
+        public static final int WearableFrameLayout_layout_marginBottomRound = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_marginLeftRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:layout_marginLeftRound
+        */
+        public static final int WearableFrameLayout_layout_marginLeftRound = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_marginRightRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:layout_marginRightRound
+        */
+        public static final int WearableFrameLayout_layout_marginRightRound = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_marginRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:layout_marginRound
+        */
+        public static final int WearableFrameLayout_layout_marginRound = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_marginTopRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:layout_marginTopRound
+        */
+        public static final int WearableFrameLayout_layout_marginTopRound = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#layout_widthRound}
+          attribute's value can be found in the {@link #WearableFrameLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.araujo.jordan.wearrow:layout_widthRound
+        */
+        public static final int WearableFrameLayout_layout_widthRound = 5;
         /** Attributes that can be used with a WearableHeaderTextView.
            <p>Includes the following attributes:</p>
            <table>
@@ -1090,7 +1841,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #WearableHeaderTextView_circular_text_size
          */
         public static final int[] WearableHeaderTextView = {
-            0x7f01001b, 0x7f01001c
+            0x7f010028, 0x7f010029
         };
         /**
           <p>This symbol is the offset where the {@link com.araujo.jordan.wearrow.R.attr#circular_layout_gravity}

@@ -18,9 +18,9 @@ MERGED from com.google.android.gms:play-services-base:7.3.0:18:5
 MERGED from com.android.support:support-v4:22.1.1:20:5
 MERGED from com.android.support:support-v13:22.1.1:20:5
 MERGED from com.android.support:support-v4:22.1.1:20:5
-MERGED from com.google.android.support:wearable:1.1.0:6:5
+MERGED from com.google.android.support:wearable:1.2.0:4:5
+MERGED from com.android.support:recyclerview-v7:22.0.0:20:5
 MERGED from com.android.support:support-v4:22.1.1:20:5
-MERGED from com.android.support:recyclerview-v7:21.0.0:15:5
 MERGED from com.android.support:support-v4:22.1.1:20:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:7:15
@@ -41,9 +41,9 @@ MERGED from com.google.android.gms:play-services-base:7.3.0:20:5
 MERGED from com.android.support:support-v4:22.1.1:22:5
 MERGED from com.android.support:support-v13:22.1.1:22:5
 MERGED from com.android.support:support-v4:22.1.1:22:5
-MERGED from com.google.android.support:wearable:1.1.0:10:5
+MERGED from com.google.android.support:wearable:1.2.0:8:5
+MERGED from com.android.support:recyclerview-v7:22.0.0:22:5
 MERGED from com.android.support:support-v4:22.1.1:22:5
-MERGED from com.android.support:recyclerview-v7:21.0.0:17:5
 MERGED from com.android.support:support-v4:22.1.1:22:5
 	android:label
 		ADDED from AndroidManifest.xml:15:13
@@ -97,8 +97,8 @@ ADDED from AndroidManifest.xml:38:17
 	android:name
 		ADDED from AndroidManifest.xml:38:27
 activity#android.support.v7.widget.TestActivity
-ADDED from com.android.support:recyclerview-v7:21.0.0:18:9
+ADDED from com.android.support:recyclerview-v7:22.0.0:23:9
 	android:label
-		ADDED from com.android.support:recyclerview-v7:21.0.0:18:19
+		ADDED from com.android.support:recyclerview-v7:22.0.0:25:13
 	android:name
-		ADDED from com.android.support:recyclerview-v7:21.0.0:18:60
+		ADDED from com.android.support:recyclerview-v7:22.0.0:24:13

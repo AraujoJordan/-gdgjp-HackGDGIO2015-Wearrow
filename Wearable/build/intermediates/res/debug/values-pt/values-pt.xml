@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="app_name">Wearrow</string>
-    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-pt/common_strings.xml -->
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values-pt/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Um app exige uma atualização do app Android Wear."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"Este app só funciona com uma versão atualizada do app Android Wear."</string>
@@ -36,7 +36,10 @@
     <string msgid="9071884888741449141" name="common_signin_button_text">"Login"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Fazer login com o Google"</string>
     <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Este app exige um ou mais serviços do Google Play, que não estão disponíveis no momento. Entre em contato com o desenvolvedor para receber assistência."</string>
-    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-pt/values.xml -->
+    <eat-comment/>
+    <string msgid="8455537630633057684" name="dismiss_overlay_button_label">"Sair"</string>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/-gdgjp-HackGDGIO2015-Wearrow/Wearable/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="distanceToClose">Muito perto do ponto de destino</string>
     <string name="ft">ft</string>
