@@ -1,0 +1,10 @@
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/classes/release
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/internal_impl-22.1.0-2bacb8da7d41873cd6007e1e34541e5cdd33d48c.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/support-annotations-22.1.0-6f27920d44457ecc59a49b95fab2cea72f80b5d7.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-22b6b45ef2f4ef5e9d87ec726bb024d199d8fd6c.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-13bc45f78f10888e86c4b431cde3b138289eddd5.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-21da2c513dcd60cc3f88be6c9bcaf05cf992b5a1.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/internal_impl-22.1.0-a6aa8ac9ec95fde27f51265ede74d2bd83c1e896.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-c4cc1c9bda4c053b4cf1e1c5174b4237492b1d50.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-abf2433b91b6d18f9595bf176e12764b59cb0969.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Wearable/build/intermediates/pre-dexed/release/classes-a45b26a9daeca0e1ad93a2b620c3663bd061262c.jar

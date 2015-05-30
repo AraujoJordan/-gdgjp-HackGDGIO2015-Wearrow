@@ -1,0 +1,9 @@
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/classes/release
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/internal_impl-22.1.0-c42bbe896cd0b1432e1137bc83fa991289f5af33.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/support-annotations-22.1.0-6f27920d44457ecc59a49b95fab2cea72f80b5d7.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-fbc09b1381723bfb36cabe4f84d1089118a44977.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-6d0e6e472b9f4f4443b04698f92264c85b04392a.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-c7e0b3fa7ba5f8730845469cf5bf55763137734e.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/internal_impl-22.1.0-167706054a336c811c9324a9d5c4e8a3e3944e80.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-40630cba149e07d671b088d764fdf677761dbd67.jar
+/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/pre-dexed/release/classes-47093fcc3e5edf82c118955c962462eaadad0e90.jar

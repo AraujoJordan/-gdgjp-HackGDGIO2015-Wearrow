@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wearrow</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="kilometer">Quilômetros</string>
+    <string name="meter">Metros</string>
+    <string name="ft">ft</string>
+    <string name="mi">mi</string>
+    <string name="distanceToClose">Muito perto do ponto de destino</string>
+    <string name="loading">Carregando</string>
+    <string name="noGpsFound">Nenhum sensor de GPS encontrado</string>
+    <string name="noGEOFound">Nenhum ponto para apontar</string>
+</resources>

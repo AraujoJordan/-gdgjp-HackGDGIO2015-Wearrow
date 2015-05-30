@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/wear.xml -->
+    <eat-comment/>
+    <string-array name="android_wear_capabilities" translatable="false">
+        <!-- declaring the provided capabilities -->
+        <item>capability_1</item>
+        <item>capability_2</item>
+    </string-array>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/template-dimens.xml -->
+    <eat-comment/>
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">7327000</integer>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Wearrow</string>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="commono_google_play_services_api_unavailable_text">This app requires one or more Google Play services that are not currently
+available. Please contact the developer for assistance.</string>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="distanceToClose">To close to pointer location</string>
+    <string name="ft">ft</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="kilometer">Kilometers</string>
+    <string name="loading">Loading</string>
+    <string name="meter">Meters</string>
+    <string name="mi">mi</string>
+    <string name="noGEOFound">No point to pointer</string>
+    <string name="noGpsFound">No GPS sensor found</string>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/styles_wearrow.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Wearrow" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_wearrow</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_wearrow</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_wearrow</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Wearrow</item>
+    </style>
+    <style name="ActionBar.Transparent.Wearrow" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_wearrow</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Wearrow</item>
+    </style>
+    <style name="ActionBarTabStyle.Wearrow" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_wearrow</item>
+    </style>
+    <style name="ActionButton.CloseMode.Wearrow" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_wearrow</item>
+    </style>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/template-styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.Sample"/>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/style.xml -->
+    <eat-comment/>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/styles_wearrow.xml -->
+    <eat-comment/>
+    <style name="DropDownListView.Wearrow" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_wearrow</item>
+    </style>
+    <style name="DropDownNav.Wearrow" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_wearrow</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_wearrow</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_wearrow</item>
+    </style>
+    <style name="PopupMenu.Wearrow" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_wearrow</item>	
+    </style>
+    <style name="ProgressBar.Wearrow" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_wearrow</item>
+    </style>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/template-styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Base" parent="android:Theme.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/styles_wearrow.xml -->
+    <eat-comment/>
+    <style name="Theme.Wearrow" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_wearrow</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Wearrow</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Wearrow</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Wearrow</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Wearrow</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Wearrow</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_wearrow</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_wearrow</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Wearrow</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Wearrow.Widget</item>
+
+    </style>
+    <style name="Theme.Wearrow.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Wearrow</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Wearrow</item>
+    </style>
+    <!-- From: file:/home/araujojordan/AndroidStudioProjects/Wearrow/Application/src/main/res/values/template-styles.xml -->
+    <eat-comment/>
+    <style name="Widget"/>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
